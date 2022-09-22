@@ -1,4 +1,6 @@
 import './header.css'
+import '../gradient/gradient.css'
+
 import { AiFillGithub,AiFillLinkedin,AiOutlineInstagram,AiOutlineWhatsApp } from 'react-icons/ai';
 import {FiMail} from 'react-icons/fi'
 import { useEffect } from 'react';
