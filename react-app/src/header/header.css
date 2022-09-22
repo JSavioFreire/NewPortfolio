@@ -11,9 +11,12 @@
 .header .center{
     color: white;
     font-size: 25px;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
     text-align: center;
     
+}
+.header a{
+    color: white;
 }
 .header .text{
     border: 5px solid white;
@@ -27,6 +30,24 @@
     font-weight: 100;
 
     
+}
+.header .icons{
+    display: flex;
+    justify-content: center;
+}
+.header .icons div p{
+    display: none;
+}
+.header .icons div .apareceP{
+    position: absolute;
+    display: block;
+    margin-top: -5px; 
+    margin-left: -8px;
+    text-align: center;
+    background-color: #413f3f;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
 }
 .header svg{
     width: 35px;
