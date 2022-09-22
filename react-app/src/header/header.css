@@ -13,7 +13,7 @@
     font-size: 25px;
     transform: translateY(-30%);
     text-align: center;
-    
+    height: 200px;
 }
 .header a{
     color: white;
