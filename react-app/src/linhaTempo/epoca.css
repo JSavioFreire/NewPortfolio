@@ -1,0 +1,74 @@
+ .epoca{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.epoca2{
+    width: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.epoca .text{
+    width: 180px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: rgb(28, 28, 28);
+    
+}
+.epoca .bola{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+
+}
+.epoca .img{
+    width: 180px;
+}
+.epoca .img img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.epoca2 .text{
+    width: 180px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    color: rgb(28, 28, 28);
+    
+}
+.epoca2 .bola{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 50px;
+    transform: translateX(-50%);
+
+}
+.epoca2 .img{
+    width: 180px;
+}
+.epoca2 .img img{
+    border-radius: 20px;
+    width: 100%;
+}
