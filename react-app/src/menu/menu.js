@@ -19,7 +19,16 @@ export default function Menu(){
     return(
         <div className={ativar ? 'ativar' : 'desativo' }>
             <div className='left'>
-                <p>Sávio Freire</p>
+                <h1>Sávio Freire</h1>
+                <p>Desenvolvedor Front-End</p>
+            </div>
+            <div className='right'>
+                <ul>
+                    <li>Home</li>
+                    <li>Sobre</li>
+                    <li>Linha do tempo</li>
+                    <li>Contato</li>
+                </ul>
             </div>
         </div>
     )

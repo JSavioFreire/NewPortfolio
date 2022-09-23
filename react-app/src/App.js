@@ -1,7 +1,7 @@
 import Header from './header/Header'
 import QuemSou from './quemSou/quemSou'
-import TituloPort from './tituloPort/tituloPort'
-import Portfolio from './portfolio/portfolio'
+import TituloLinhaTempo from './tituloLinhaTempo/tituloLinhaTempo'
+import LinhaTempo from './linhaTempo/linhaTempo'
 import Menu from './menu/menu'
 
 export default function App() {
@@ -10,8 +10,8 @@ export default function App() {
       <Menu/>
       <Header />
       <QuemSou />
-      <TituloPort />
-      <Portfolio />
+      <TituloLinhaTempo />
+      <LinhaTempo />
     </div>
   );
 }

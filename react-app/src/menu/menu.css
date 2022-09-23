@@ -2,20 +2,31 @@
     height: 80px;
     position: fixed;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.69);
+    background-color: rgba(48, 44, 44, 0.495);
     backdrop-filter: blur(5px);
     z-index: 1;
     display: flex;
     animation: aparecer 2s ;
-
+    color: white;
+    justify-content: space-between;
+    
 }
 .ativar .left{
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 70px;
     margin-left: 50px;
-    color: rgb(39, 37, 37);
+    border: 2px solid white;
+    padding: 0 20px;
+    text-align: center;
+    height: 65px;
+    margin-top: 7.5px;
 }
+.ativar .left h1{
+    font-weight: 300;
+}
+.ativar .left p{
+    font-size: 14px;
+    margin-top: -8px;
+}
+
 .desativo{
     display: none;
 }
@@ -26,4 +37,24 @@
     100%{
         opacity: 1;
     }
+}
+
+.ativar .right{
+    width: 40%;
+}
+.ativar .right ul{
+    display: flex;
+    line-height: 80px;
+    margin-right: 50px;
+    justify-content: space-around;
+     
+}
+.ativar .right ul li{
+    cursor: pointer;
+    color: rgb(212, 212, 212);
+    transition: 0.5s;
+}
+.ativar .right ul li:hover{
+    color: white;
+    
 }
