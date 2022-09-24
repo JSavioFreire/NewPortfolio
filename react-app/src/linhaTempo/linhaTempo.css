@@ -1,11 +1,10 @@
 .linhaTempo{
     position: relative;
-    height: 700px;
     margin-top: 50px;
 }
 .linhaTempo .linha{
     width: 10px;
-    height: 500px;
+    height: 80%;
     background-color: black;
     position: absolute;
     left: 50%;

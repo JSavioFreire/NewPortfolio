@@ -31,7 +31,7 @@ export default function Header(){
         <div className='header'>
             <div className='gradient'>
                 <div className='center'>
-                    <div className="text">
+                    <div className="nome">
                         <h1>Sávio Freire</h1>
                         <p>Desenvolvedor Front-End</p>
                     </div>
