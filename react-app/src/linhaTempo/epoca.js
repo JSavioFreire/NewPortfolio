@@ -1,4 +1,5 @@
 import './epoca.css'
+import { BsArrowDownShort } from 'react-icons/bs';
 
 
 export default function Epoca(props){
@@ -14,7 +15,9 @@ export default function Epoca(props){
                     <p>{props.sobre}</p>
                 </div>
                 <div className='bola'>
-                    <div className='gradient'></div>
+                    <div className='gradient'>
+                        <BsArrowDownShort/>
+                    </div>
                 </div>
                 <div className='img'>
                     <img src={props.img} />

@@ -12,6 +12,10 @@
     justify-content: space-between;
     margin: 80px auto;
 }
+.epoca,.epoca2 svg{
+    color: white;
+    font-size: 20px;
+}
 
 .text{
     width: 180px;
