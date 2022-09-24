@@ -3,6 +3,7 @@ import QuemSou from './quemSou/quemSou'
 import TituloLinhaTempo from './tituloLinhaTempo/tituloLinhaTempo'
 import LinhaTempo from './linhaTempo/linhaTempo'
 import Menu from './menu/menu'
+import Contato from './contato/contato'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <QuemSou />
       <TituloLinhaTempo />
       <LinhaTempo />
+      <Contato />
     </div>
   );
 }
