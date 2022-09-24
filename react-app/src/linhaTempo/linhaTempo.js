@@ -9,7 +9,7 @@ import convertido from '../foto/convertido.jpg'
 import conheci from '../foto/conheciAna.jpg'
 import culturaI from '../foto/culturaI.jpg'
 import estacio from '../foto/estacio.jpg'
-import danki from '../foto/danki.jpg'
+import danki from '../foto/danki.png'
 
 export default function LinhaTempo(){
 
