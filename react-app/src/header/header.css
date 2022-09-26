@@ -15,7 +15,7 @@
 }
 .header .nome{
     border: 5px solid white;
-    padding: 15px 25px;
+    padding: 15px 105px;
     margin: 0 ;
 }
 .header .nome h1{
@@ -61,5 +61,11 @@
     }
     100%{
         background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .header .nome{
+        padding: 15px 25px;
     }
 }
