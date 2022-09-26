@@ -5,7 +5,7 @@ import {FiMail} from 'react-icons/fi'
 export default function Contato(){
 
     return(
-        <div className='contato'>
+        <div className='contato' id='contato'>
             <div><h1>Minhas Redes</h1></div>
             <div className='redes'>
             <div><a href="https://github.com/JSavioFreire" target="_blank"><AiFillGithub/></a></div>

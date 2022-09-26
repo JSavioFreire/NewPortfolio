@@ -4,7 +4,7 @@ import minhaFoto from '../foto/foto.jpg'
 export default function QuemSou(){
 
     return(
-        <div className='quemSou'>
+        <div className='quemSou' id='quemSou'>
             <h1>Olá!</h1>
             <div className='flex'>
                 <div className='sobre'>

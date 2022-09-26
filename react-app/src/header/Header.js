@@ -28,7 +28,7 @@ export default function Header(){
 
 
     return(
-        <div className='header'>
+        <div className='header' id='header'>
             <div className='gradient'>
                 <div className='center'>
                     <div className="nome">

@@ -24,10 +24,10 @@ export default function Menu(){
             </div>
             <div className='right'>
                 <ul>
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Linha do tempo</li>
-                    <li>Contato</li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#quemSou">Sobre</a></li>
+                    <li><a href="#linhaTempo">Linha do tempo</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </div>
         </div>
