@@ -24,7 +24,7 @@ export default function Menu(){
             </div>
             <div className='right'>
                 <ul>
-                    <li><a href="#header">Home</a></li>
+                    <li><a href="#inicio">Home</a></li>
                     <li><a href="#quemSou">Sobre</a></li>
                     <li><a href="#linhaTempo">Linha do Tempo</a></li>
                     <li><a href="#contato">Contato</a></li>

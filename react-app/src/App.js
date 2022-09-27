@@ -5,10 +5,12 @@ import LinhaTempo from './linhaTempo/linhaTempo'
 import Menu from './menu/menu'
 import Contato from './contato/contato'
 import MenuMobile from './menuMobile/menuMobile'
+import Inicio from './header/inicio'
 
 export default function App() {
   return (
     <div className="App">
+      <Inicio/>
       <Menu/>
       <MenuMobile />
       <Header />

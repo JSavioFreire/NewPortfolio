@@ -27,13 +27,11 @@
 }
 .ativar a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
 }
-
 .desativo{
     display: none;
 }
-
 .ativar .right{
     width: 40%;
 }
@@ -41,8 +39,7 @@
     display: flex;
     line-height: 80px;
     margin-right: 50px;
-    justify-content: space-around;
-     
+    justify-content: space-around;    
 }
 .ativar .right ul li{
     cursor: pointer;
@@ -52,8 +49,6 @@
 .ativar .right ul li:hover{
     color: white;  
 }
-
-
 @keyframes descer {
     0%{
         top:-80px

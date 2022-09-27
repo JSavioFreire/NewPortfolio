@@ -40,7 +40,7 @@ export default function MenuMobile(){
             </div>
             <div className='menu'>
                 <ul>
-                    <li><a href="#header"><AiOutlineHome/>Home</a></li>
+                    <li><a href="#inicio"><AiOutlineHome/>Home</a></li>
                     <li><a href="#quemSou"><BiBook/>Sobre</a></li>
                     <li><a href="#linhaTempo"><TiMediaRewindOutline/>Linha do Tempo</a></li>
                     <li><a href="#contato"><BsTelephone/>Contato</a></li>
