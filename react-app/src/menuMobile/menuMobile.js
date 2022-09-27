@@ -1,5 +1,8 @@
 import './menuMobile.css'
-import { BiMenu } from 'react-icons/bi';
+import { BiMenu, BiBook} from 'react-icons/bi';
+import { AiOutlineHome } from 'react-icons/ai';
+import { BsTelephone } from 'react-icons/bs';
+import { TiMediaRewindOutline } from 'react-icons/ti';
 import {useEffect, useState} from 'react';
 
 export default function MenuMobile(){
@@ -16,30 +19,31 @@ export default function MenuMobile(){
         }
         window.addEventListener('scroll', men)
     })
+    const menuLateral = document.querySelector('.menu')      
+    const clicouMenu = ()=>{
+        menuLateral.classList.add('apareceMenuLateral')
 
-       let menu = document.querySelector('.menu')
-
-        const menuLateral = ()=>{
-            
+            document.addEventListener('click',()=>{
+            menuLateral.classList.remove('apareceMenuLateral')
+       }, true); 
         
-        }
-    
+    }
 
     
     return(
         <div className={menuMobile ? ' ' : 'display'}>
             <div className ={menuMobile ? 'menuMobile' : ' '}>
-                <div className='btMenu'>
-                    <BiMenu onClick={menuLateral()}/>
+                <div className='btMenu' onClick={clicouMenu}>
+                    <BiMenu/>
                 </div>
                 
             </div>
             <div className='menu'>
                 <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#quemSou">Sobre</a></li>
-                    <li><a href="#linhaTempo">Linha do Tempo</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#header"><AiOutlineHome/>Home</a></li>
+                    <li><a href="#quemSou"><BiBook/>Sobre</a></li>
+                    <li><a href="#linhaTempo"><TiMediaRewindOutline/>Linha do Tempo</a></li>
+                    <li><a href="#contato"><BsTelephone/>Contato</a></li>
                 </ul>
             </div>
         </div>
