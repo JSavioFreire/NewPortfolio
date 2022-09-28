@@ -11,4 +11,30 @@
     top:50px;
     transform: translateX(-50%);
     margin-top: 50px;
+    animation: piscaLinha 1s infinite;
+    animation: linhaPisca 1s;
+}
+.linhaApagada{
+    opacity: 0;
+}
+
+@keyframes linhaPisca {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes piscaLinha {
+    0%{
+        background-color: #202020;
+    }
+    50%{
+        background-color: #3b3939;
+    }
+    100%{
+        background-color: #202020;
+    }
 }
